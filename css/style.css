@@ -8,6 +8,92 @@ html, body {
   text-align: left;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 60px;
+  background-color: #dddddd;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li {
+  text-align: center;
+}
+
+#progressbar {
+  background-color: rgb(204, 204, 204);
+  border-radius: 15px;
+  /* (height of inner div) / 2 + padding */
+  /* padding: 3px; */
+  margin-left: 27%;
+  margin-right: 30%;
+  font-size: 10px;
+
+}
+
+#progressbar>div {
+  background-color: #2d9e97c7;
+  width: 40%;
+  /* Adjust with JavaScript */
+  height: 10px;
+  border-radius: 18px;
+  margin-right: 27%;
+
+}
+
+.grid-container {
+  display: grid;
+  gap: 50px 50px;
+  grid-template-columns: auto auto;
+  margin-left: 25%;
+  margin-right: 27%;
+}
+
+.grid-item {
+  background-color: rgb(179, 179, 179);
+  padding: 20px;
+  height: 230px;
+  width: 230px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.item5 {
+  grid-area: 3 / 1 / span 6 / span 2;
+  background-color: #2d9e97c7;
+  margin-right: 5px;
+  text-align: center;
+  border-radius: 25px;
+}
+
 .all{
   position: relative;
 }
@@ -15,7 +101,7 @@ html, body {
 .html{
   position: absolute;
   margin-left: 35%;
-  margin-top: 1167px;
+  margin-top: 1141px;
   /* width: 100%; */
   top: 0;
   left: 0;
@@ -23,9 +109,11 @@ html, body {
 
 .whyyouhireme{
   margin-left: 27%;
-  margin-top: 82px;
+  padding-top: 50px;
   margin-bottom: 0px;
-  font-size: 30px;
+  font-size: 36px;
+  color: #2a3053;
+  font-weight: 700;
 }
 
 .divisao{
@@ -36,6 +124,7 @@ html, body {
 .hiretext{
   margin-left: 27%;
   margin-bottom: 20px;
+  color: grey;
 }
 
 .space{
