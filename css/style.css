@@ -9,6 +9,7 @@ html, body {
 }
 
 ul {
+  font-size: 16px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -65,12 +66,13 @@ li {
   height: 10px;
   border-radius: 18px;
   margin-right: 27%;
+  text-align: center;
 
 }
 
 .grid-container {
   display: grid;
-  gap: 50px 50px;
+  gap: 10px 10px;
   grid-template-columns: auto auto;
   margin-left: 25%;
   margin-right: 27%;
@@ -81,7 +83,7 @@ li {
   padding: 20px;
   height: 230px;
   width: 230px;
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
   border-radius: 25px;
 }
@@ -89,9 +91,10 @@ li {
 .item5 {
   grid-area: 3 / 1 / span 6 / span 2;
   background-color: #2d9e97c7;
-  margin-right: 5px;
+  margin-right: 25px;
   text-align: center;
   border-radius: 25px;
+  height: 150px;
 }
 
 .all{
@@ -105,6 +108,31 @@ li {
   /* width: 100%; */
   top: 0;
   left: 0;
+}
+
+.css{
+    position: absolute;
+    margin-left: 48.3%;
+    margin-top: 1141px;
+    /* width: 100%; */
+    top: 0;
+    left: 0;
+}
+
+.js{
+  position: absolute;
+  margin-left: 62.3%;
+  margin-top: 1141px;
+  /* width: 100%; */
+  top: 0;
+  left: 0;
+}
+
+.insta{
+  width: 20%;
+  font-size: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
 }
 
 .whyyouhireme{
@@ -223,6 +251,11 @@ button{
   margin-left: 27%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.menu{
+  margin-left: 0;
+  width: 200px;
 }
 
 .img{
