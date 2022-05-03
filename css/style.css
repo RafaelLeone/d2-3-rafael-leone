@@ -71,8 +71,11 @@ li {
 }
 
 .grid-container {
+  background-color: rgb(247, 253, 236);
   display: grid;
   gap: 10px 10px;
+  padding-left: 20px;
+  padding-top: 20px;
   grid-template-columns: auto auto;
   margin-left: 25%;
   margin-right: 27%;
@@ -92,9 +95,11 @@ li {
   grid-area: 3 / 1 / span 6 / span 2;
   background-color: #2d9e97c7;
   margin-right: 25px;
+  margin-left: 7px;
   text-align: center;
   border-radius: 6px;
   height: 120px;
+  width: 555px;
 }
 
 .all{
