@@ -12,7 +12,7 @@ html, body {
   background-color: rgb(204, 204, 204);
   border-radius: 15px;
   margin-left: 27%;
-  margin-right: 20%;
+  margin-right: 30%;
   font-size: 10px;
 }
 
@@ -21,7 +21,6 @@ html, body {
   width: 60%;
   height: 10px;
   border-radius: 18px;
-  margin-right: 20%;
   text-align: center;
 }
 
@@ -35,7 +34,7 @@ html, body {
 }
 
 .grid-container {
-  background-color: rgb(247, 253, 236);
+  background: #2a3053;
   display: grid;
   gap: 10px 10px;
   padding-left: 20px;
@@ -59,11 +58,11 @@ html, body {
   grid-area: 3 / 1 / span 6 / span 2;
   background-color: #2d9e97c7;
   margin-right: 25px;
-  margin-left: 7px;
+  margin-left: 5px;
   text-align: center;
   border-radius: 6px;
   height: 120px;
-  width: 555px;
+  width: 560px;
 }
 
 .all{
